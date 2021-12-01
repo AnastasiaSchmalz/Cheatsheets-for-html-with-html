@@ -71,11 +71,10 @@ article li {
   padding: 1em;
 }
 .demo_table {
-  width: 80%;
+  width: 100%;
   margin-top: 20%;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 5%;
   border: solid #D9DDDB;
 }
 td {
