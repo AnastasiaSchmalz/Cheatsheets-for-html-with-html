@@ -75,3 +75,8 @@ article li {
   padding: 5%;
   border: solid #D9DDDB;
 }
+td {
+  border: solid #D9DDDB;
+  border-collapse: collapse;
+  padding: 0.3em;
+}
