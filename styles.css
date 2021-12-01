@@ -61,6 +61,9 @@ article p {
   color: #017C80;
   font-family: 'Courier New', 'Courier', 'Monospace';
 }
+article ul {
+  padding: 0;
+}
 article li {
   list-style-type: none;
   background-color: #D9DDDB;
