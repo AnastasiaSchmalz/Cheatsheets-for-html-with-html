@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+    <title>Cheatsheet</title>
+  </head>
+  <body>
+    <header>
+      <nav class="top_nav">
+        <ul>
+          <li><a>To Top</a></li>
+          <li><a>More</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+    <br>
+      <h1 class="name">Cheatsheet</h1>
+      <h3>For the insecure ones :)</h3>
+      <main>
+        <article>
+          <h2>HTML Tables</h2>
+          <p>In HTML tables consist out of:</p>
+          <ul>
+            <li><h3>table</h3> to create a two-dimensional table</li>
+            <li><h3>thead</h3> for defining the headings of table columns</li>
+            <li><h3>tbody</h3>, which contains all the table data</li>
+            <li><h3>tr</h3> for table rows</li>
+            <li><h3>th</h3> to give each column a heading</li>
+            <li><h3>td</h3> for your actual table data</li>
+            <li><h3>tfoot</h3> for further content or to summarize data</li>
+          </ul>
+          <br>
+          <p>Note, that 'tr' and 'td' are nested elements. This means, they are inside of 'thead', 'tbody' and 'tfoot' and are there for creating rows and cells. Therefore 'td' must be inside of 'tr'!</p>
+        </article>
+      </main>
+      <br>
+      <div class='demo_table'>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>6am-12pm</td>
+            <td>Study coding</td>
+            <td>Go out for breakfast</td>
+          </tr>
+          <tr>
+            <td>12pm-6pm</td>
+            <td>Cook lunch and go out for a movie</td>
+            <td>Go out into the woods</td>
+          </tr>
+          <tr>
+            <td>6pm-10pm</td>
+            <td>Have Burgers</td>
+            <td>Read book</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan = "3">This was a great weekend!</td>
+          </tr>
+        </tfoot>
+      </table>
+      </div>
+    <br>
+    <p>Open the developers menu with ctr + shift + i (on Windows) and look at the code. Do you find 'colspan' and can guess what it makes?</p>
+    </body>
+  </html>
